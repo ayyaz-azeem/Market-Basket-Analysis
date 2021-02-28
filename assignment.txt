@@ -1,0 +1,29 @@
+ Assignment 1 file(s)
+
+This time you can submit in groups of Max 3.
+
+Recommendations: Look for a decent computational machine (e.g. notebooks.csc.fi) and/or check information about libraries for parallelization in python (e.g. multiprocessing).
+
+    Download the groceries.csv file from itslearning (also the file is in the folder homework inside the zip of this lecture)
+
+Warning!
+
+The baskets in this file are presented for each line of the file:
+
+citrus fruit,semi-finished bread,margarine,ready soups tropical fruit,yogurt,coffee ...
+
+So, you have to modify the code for reading the file properly!
+
+ 
+
+    Find the frequent pair of items (2-tuples) using the naïve, A-priori and PCY algorithms. For each of these compare the time of execution and results for supports s=10, 50, 100. Comment your results.
+
+    For the PCY algorithm, create up to 5 compact hash tables. What is the difference in results and time of execution for 1,2,3,4 and 5 tables? Comment your results.
+
+    Find the final list of k-frequent items (k-tuples) for k=3,4 and 5. Experiment a bit and describe the best value for the support in each case. Warning: You can use any of the three algorithms, but be careful, because the algorithm can take too long if you don't chose it properly.
+
+    Using one of the results of the previous item, for one k (k=3,4 or 5) find the possible clusters using the 1-NN criteria. Comment your results.
+
+Deadline: 11.02.2021 at 23:59. Important: The jupyter notebook must show the results.
+
+If you submit as a group be sure to state clearly who did what at the beginning of the notebook.
